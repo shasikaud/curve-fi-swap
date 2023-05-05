@@ -33,7 +33,7 @@ contract CurveSwapTest {
     address private constant USDC = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
     address private constant USDT = 0xdAC17F958D2ee523a2206206994597C13D831ec7;
     address private constant WETH = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
-    address private constant POOL = 0xD51a44d3FaE010294C616388b506AcdA1bfAAE46;
+    address private constant POOL = 0x80466c64868E1ab14a1Ddf27A676C3fcBE638Fe5;
     address private constant CURVE_SWAP_ROUTER = 0x99a58482BD75cbab83b27EC03CA68fF489b5788f;
 
     ICurveSwapRouter private constant icurveSwapRouter = ICurveSwapRouter(CURVE_SWAP_ROUTER);
